@@ -1,0 +1,62 @@
+.hero-service{
+    margin: auto;
+    background-color: black;
+}
+.service-images{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    margin: 20px auto;
+    padding-top: 100px;
+    gap: 10px;
+    color: black;
+}
+.service-img{
+    width: 220px;
+    height: 220px;
+}
+.service{
+    width: 300px;
+}
+.details h2, p{
+    color: white;
+}
+/* .details p{
+font-size: 12px;
+} */
+.services-btn{
+    width: 15rem;
+    height: 30px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+background-color: white;
+color: black;
+margin-bottom: 50px;
+}
+.popular-sevice{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 50px auto;
+border: 2px solid black;
+width: 100%;
+max-width: 850px;;
+}
+.popular-serviceImg{
+    width: 450px;
+    height: 550px;
+}
+.popular-service-details{
+    width: 400px;
+}
+.book-btn{
+    width: 5rem;
+    height: 40px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+background-color: black;
+color: white;
+margin-bottom: 50px;
+}

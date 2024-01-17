@@ -33,7 +33,7 @@ Jennifer</p>
 <div className='profileImages'>
 {data.map((item, index) => (
  <div key={index}>
-   <img src={item.image} alt='image' className='testimonialImage' />
+   <img src={item.image} alt='img' className='testimonialImage' />
  </div>
 ))}
 </div>

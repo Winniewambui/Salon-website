@@ -25,7 +25,9 @@ background-color: rgba(141, 141, 8, 0.753);
     line-height: 30px;
 }
 .white, .white-slider{
-    background-color: white;
+    background-color: rgb(248, 243, 243);
+}
+.testimony-p{
     color: black;
 }
 .black{

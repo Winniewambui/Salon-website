@@ -21,14 +21,14 @@ San Francisco, CA 94158 </p>
 <p className='info-address'>info@mysite.com</p>
 </div>
 
-<div className='nav-details'>
+<div className='f-nav-details'>
     <p> home </p>
     <p>about </p>
     <p>services </p>
     <p>contact </p>
 </div>
 
-<div className='social-icons'>
+<div className='footer-icons'>
 <FaFacebookF />
   <FaXTwitter />
   <FaInstagram />

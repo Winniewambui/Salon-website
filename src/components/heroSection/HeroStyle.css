@@ -4,6 +4,7 @@
     margin: 10px auto;
     background-color: rgb(190, 129, 16);
     display: flex;
+    flex-direction: row;
     position: relative;
 }
 .hero-images{

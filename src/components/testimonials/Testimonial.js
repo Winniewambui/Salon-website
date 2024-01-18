@@ -10,16 +10,16 @@ const Testimonial = () => {
 
   <div className='testimonials'>
 <div className='white testimony'>
-<p>The Best in the World</p></div>
+<p className='testimony-p'>The Best in the World</p></div>
 <div className='black testimony'>
 <ImQuotesLeft style={{padding: '100px', fontSize: '4rem'}}/>
 </div>
 <div className='white-slider testimony'>
-<p>
+<p className='testimony-p'>
 “I'm a testimonial. Click to edit me and add text 
 that says something nice about you and your services. 
 Let your customers review you and tell their friends how great you are.”
-Jennifer</p>
+Jennifer.</p>
 </div>
 </div>
   </div>
@@ -43,4 +43,4 @@ Jennifer</p>
   )
 }
 
-export default Testimonial
+export default Testimonial;

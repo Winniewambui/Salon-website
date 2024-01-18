@@ -18,12 +18,12 @@
 .service{
     width: 300px;
 }
-.details h2, p{
+.service-h2{
     color: white;
 }
-/* .details p{
-font-size: 12px;
-} */
+.service-p{
+    color: white;
+} 
 .services-btn{
     width: 15rem;
     height: 30px;
@@ -49,6 +49,9 @@ max-width: 850px;;
 }
 .popular-service-details{
     width: 400px;
+}
+.popular-service-details h2, p{
+    color: black;
 }
 .book-btn{
     width: 5rem;

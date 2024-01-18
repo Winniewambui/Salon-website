@@ -10,27 +10,27 @@ const Main = () => {
 <div className='service-images'>
 <div className='color service'>
   <img src='https://images.pexels.com/photos/262173/pexels-photo-262173.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='service-img'/>
-  <div className='details'>
- <h2> Vibrant Color Services:</h2>
-<p>Discover a spectrum of colors that bring life to your locks. 
+  <div className='main-details'>
+ <h2 className='service-h2'> Vibrant Color Services:</h2>
+<p className='service-p'>Discover a spectrum of colors that bring life to your locks. 
 Whether you're looking for a bold change or subtle highlightsand vibrant p
 alette that complements your skin tone and enhances your natural beauty.</p>
 </div>
   </div>
   <div className='cuts service'>
   <img src='https://images.pexels.com/photos/3356211/pexels-photo-3356211.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='service-img'/>
-  <div className='details'>
-  <h2>Precision Haircuts:</h2>
-<p>We believe that a great haircut is the 
+  <div className='main-details'>
+  <h2 className='service-h2'>Precision Haircuts:</h2>
+<p className='service-p'>We believe that a great haircut is the 
 foundation of every stunning hairstyle.From trendy pixie cuts 
 to classic layers, we craft hairstyles that leave you feeling confident and fabulous.</p>
 </div>
   </div>
   <div className='styling service'>
-  <div className='details'>
+  <div className='main-details'>
   <img src='https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='service-img'/>
-  <h2>Creative Hair Styling:</h2>
-<p>Unleash your hair's potential with our creative styling services.  
+  <h2 className='service-h2'>Creative Hair Styling:</h2>
+<p className='service-p'>Unleash your hair's potential with our creative styling services.  
 our stylists are skilled in crafting intricate updos, glamorous curls.</p>
 </div>
   </div>

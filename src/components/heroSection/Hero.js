@@ -9,30 +9,27 @@ import { FaPinterestP } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div>
-    <section className='hero-section'>
-    <div className='hero-images'>
-<img src={logo3} alt='img'/>
+    <>
+      <section className='hero-section'>
+        <div className='hero-images'>
+          <img src={logo3} alt='img' />
+        </div>
+        <div className='hero-details'>
+          <p>are you ready for a new & better you?</p>
+          <button className='appointment-btn'>Book an appointment</button>
 
-</div>
-<div className='hero-details'>
-  <p>are you ready for a new & better you?</p>
-  <button className='appointment-btn'>Book an appointment</button>
-  
-  <div className='social-icons'>
-  <FaFacebookF />
-  <FaXTwitter />
-  <FaInstagram />
-  <FaPinterestP />
-  </div>
-</div>
-    </section>
+          <div className='social-icons'>
+            <FaFacebookF />
+            <FaXTwitter />
+            <FaInstagram />
+            <FaPinterestP />
+          </div>
+        </div>
+      </section>
 
-
-
-   
-</div>
+    </>
   )
 }
 
-export default Hero;
+export default Hero
+

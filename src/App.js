@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/heroSection/Hero';
 import Main from './components/mainpage/Main';
@@ -10,10 +10,9 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-<Route path="/" exact component={Hero}/>
-      </Switch>
-      <Hero />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+      </Routes>
       <Main />
       <Testimonial />
       <Footer />

@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/heroSection/Hero';
 import Main from './components/mainpage/Main';
@@ -7,13 +8,16 @@ import Testimonial from './components/testimonials/Testimonial';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
+      <Switch>
+<Route path="/" exact component={Hero}/>
+      </Switch>
       <Hero />
       <Main />
       <Testimonial />
       <Footer />
-    </div>
+    </Router>
   );
 }
 

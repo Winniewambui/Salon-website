@@ -7,7 +7,7 @@ import { FaPinterestP } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <>
+    <section id='#footer'>
     <div className='footer'>
 <div className='logo-date'>
     <h1>Shear&style</h1>
@@ -36,7 +36,7 @@ San Francisco, CA 94158 </p>
 </div>
     </div>
 
-    </>
+    </section>
   )
 }
 

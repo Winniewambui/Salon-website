@@ -55,8 +55,8 @@ our stylists are skilled in crafting intricate updos, glamorous curls.</p>
 
 </div>
 </section>
-
 </div>
+
   )
 }
 

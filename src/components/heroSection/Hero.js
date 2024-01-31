@@ -8,19 +8,23 @@ import { FaXTwitter, FaPinterestP } from "react-icons/fa6";
 const Hero = () => {
   return (
     <>
-      <section className='hero-section'>
-        <div className='hero-images'>
-          <img src={logo3} alt='img' />
+      <section className='w-full max-w-[1000px] mx-auto flex flex-col md:flex-row justify-around items-center space-x-6 p-8 bg-yellow-600'>
+        <div className='flex '>
+          <img src={logo3} alt='img' className='w-[460px] h-[500px] object-cover'/>
         </div>
-        <div className='hero-details'>
-          <p>are you ready for a new & better you?</p>
-          <button className='appointment-btn'>Book an appointment</button>
+        <div className='flex items-center flex-col text-center text-6xl space-y-8 font-bold w-full md:w-2/5'>
+          <p className='w-[260px] text-2xl md:w-[460px] md:text-6xl text-black-300 font-bold capitalize mb-4'>
+          Are you ready for a new & better you?
+          </p>
+          <button className='w-[140px] h-10 text-[12px] text-white capitalize bg-black border-none rounded-md'>
+          Book an appointment
+          </button>
 
-          <div className='social-icons'>
-            <FaFacebookF />
-            <FaXTwitter />
-            <FaInstagram />
-            <FaPinterestP />
+          <div className='flex items-center space-x-4 mt-5 '>
+            <FaFacebookF size={15} />
+            <FaXTwitter size={15} />
+            <FaInstagram size={15}/>
+            <FaPinterestP size={15}/>
           </div>
         </div>
       </section>

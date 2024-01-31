@@ -1,39 +1,39 @@
-import React from 'react'
-import './MainStyle.css'
+import React from 'react';
+// import './MainStyle.css';
 
 const Main = () => {
   return (
     <div className='mainpage'>
-{/* SERVICE SECTION */}
+      {/* SERVICE SECTION */}
+      <section className='bg-black md:max-w-[1200px] mx-auto'>
+        <div className='flex flex-col items-center md:flex-row md:items-start justify-around md:space-x-4 p-8 mt-4 mx-auto max-w-[800px]'>
+          {/* First Service */}
+          <div className='flex flex-col h-[350px] '>
+            <img src='https://images.pexels.com/photos/262173/pexels-photo-262173.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='w-[260px] h-[270px]' />
+            <div className='text-start text-white w-[250px]'>
+              <h2 className='text-lg font-semibold'> Vibrant Color Services:</h2>
+              <p className='text-xs'>Discover a spectrum of colors that bring life to your locks.</p>
+            </div>
+          </div>
 
-<section className='hero-service'>
-<div className='service-images'>
-<div className='color service'>
-  <img src='https://images.pexels.com/photos/262173/pexels-photo-262173.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='service-img'/>
-  <div className='main-details'>
- <h2 className='service-h2'> Vibrant Color Services:</h2>
-<p className='service-p'>Discover a spectrum of colors that bring life to your locks. 
-Whether you're looking for a bold change or subtle highlightsand vibrant p
-alette that complements your skin tone and enhances your natural beauty.</p>
-</div>
-  </div>
-  <div className='cuts service'>
-  <img src='https://images.pexels.com/photos/3356211/pexels-photo-3356211.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='service-img'/>
-  <div className='main-details'>
-  <h2 className='service-h2'>Precision Haircuts:</h2>
-<p className='service-p'>We believe that a great haircut is the 
-foundation of every stunning hairstyle.From trendy pixie cuts 
-to classic layers, we craft hairstyles that leave you feeling confident and fabulous.</p>
-</div>
-  </div>
-  <div className='styling service'>
-  <div className='main-details'>
-  <img src='https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='service-img'/>
-  <h2 className='service-h2'>Creative Hair Styling:</h2>
-<p className='service-p'>Unleash your hair's potential with our creative styling services.  
-our stylists are skilled in crafting intricate updos, glamorous curls.</p>
-</div>
-  </div>
+          {/* Second Service */}
+          <div className='flex flex-col h-[380px] '>
+            <img src='https://images.pexels.com/photos/3356211/pexels-photo-3356211.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='w-[260px] h-[260px]' />
+            <div className='text-start text-white w-[250px]'>
+              <h2 className='text-lg font-semibold'>Precision Haircuts:</h2>
+              <p className='text-xs'>We believe that a great haircut is the foundation of every stunning hairstyle.</p>
+            </div>
+          </div>
+
+          {/* Third Service */}
+          <div className='flex flex-col h-[380px] '>
+            <img src='https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='w-[260px] h-[260px]' />
+            <div className='text-start text-white w-[250px]'>
+              <h2 className='text-lg font-semibold'>Creative Hair Styling:</h2>
+              <p className='text-xs'>Unleash your hair's potential with our creative styling services. </p>
+            </div>
+          </div>
+
 </div>
 <button className='services-btn'>view our services</button>
 </section>
@@ -41,17 +41,17 @@ our stylists are skilled in crafting intricate updos, glamorous curls.</p>
 
 {/* MOST POPULAR SERVICE */}
 
-
-<section className='popular-sevice'>
-<img src='https://images.pexels.com/photos/2811089/pexels-photo-2811089.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='popular-serviceImg'/>
-<div className='popular-service-details'>
+<h1 className='text-4xl font-bold capitalize ml-10 my-8 pl-20 max-w-[800px]'>our most < br/> popular Service</h1>
+<section className='flex flex-col md:flex-row items-center space-x-4 mt-4 mb-8 border-2 border-black border-l-0 max-w-[1000px] mx-auto'>
+<img src='https://images.pexels.com/photos/2811089/pexels-photo-2811089.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='w-[500px] h-[550px]'/>
+<div className='w-[350px]text-center my-5'>
 <h2>Wash & Dry</h2>
 <p>
   1 hr <br />
   100 US dollars <br />
   $100
 </p>
-<button className='book-btn'>book now</button>
+<button className='w-[90px] h-8 capitalize my-5 bg-black border-none rounded-sm text-white'>book now</button>
 
 </div>
 </section>

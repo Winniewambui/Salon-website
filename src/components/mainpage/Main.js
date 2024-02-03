@@ -1,11 +1,10 @@
 import React from 'react';
-// import './MainStyle.css';
 
 const Main = () => {
   return (
     <div className='mainpage'>
       {/* SERVICE SECTION */}
-      <section className='bg-black md:max-w-[1200px] mx-auto'>
+      <section className='bg-black md:max-w-[1100px] mx-auto'>
         <div className='flex flex-col items-center md:flex-row md:items-start justify-around md:space-x-4 p-8 mt-4 mx-auto max-w-[800px]'>
           {/* First Service */}
           <div className='flex flex-col h-[350px] '>
@@ -44,7 +43,7 @@ const Main = () => {
 <h1 className='text-4xl font-bold capitalize ml-10 my-8 pl-20 max-w-[800px]'>our most < br/> popular Service</h1>
 <section className='flex flex-col md:flex-row items-center space-x-4 mt-4 mb-8 border-2 border-black border-l-0 max-w-[1000px] mx-auto'>
 <img src='https://images.pexels.com/photos/2811089/pexels-photo-2811089.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='w-[500px] h-[550px]'/>
-<div className='w-[350px]text-center my-5'>
+<div className='w-[350px] text-center my-5'>
 <h2>Wash & Dry</h2>
 <p>
   1 hr <br />

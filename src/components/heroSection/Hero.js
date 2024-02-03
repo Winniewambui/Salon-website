@@ -1,5 +1,4 @@
 import React from 'react'
-// import './HeroStyle.css'
 import logo3 from '../../assets/logo3.png'
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaXTwitter, FaPinterestP } from "react-icons/fa6";

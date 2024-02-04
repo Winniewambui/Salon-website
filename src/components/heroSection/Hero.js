@@ -12,10 +12,10 @@ const Hero = () => {
           <img src={logo3} alt='img' className='w-[460px] h-[500px] object-cover'/>
         </div>
         <div className='flex items-center flex-col text-center text-6xl space-y-8 font-bold w-full md:w-2/5'>
-          <p className='w-[260px] text-2xl md:w-[460px] md:text-6xl text-black-300 font-bold capitalize mb-4'>
+          <p className='w-[260px] text-2xl font-serif md:w-[460px] md:text-6xl text-black-300 font-bold capitalize mb-4'>
           Are you ready for a new & better you?
           </p>
-          <button className='w-[140px] h-10 text-[12px] text-white capitalize bg-black border-none rounded-md'>
+          <button className='w-[145px] h-10 text-[12px] text-white capitalize bg-black rounded-md hover:border-2 hover:border-black hover:bg-transparent'>
           Book an appointment
           </button>
 

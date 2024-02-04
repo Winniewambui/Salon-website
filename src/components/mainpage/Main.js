@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div className='mainpage'>
       {/* SERVICE SECTION */}
-      <section className='bg-black md:max-w-[1100px] mx-auto'>
+      <section className='py-6 mt-6 bg-black md:max-w-[1100px] mx-auto'>
         <div className='flex flex-col items-center md:flex-row md:items-start justify-around md:space-x-4 p-8 mt-4 mx-auto max-w-[800px]'>
           {/* First Service */}
           <div className='flex flex-col h-[350px] '>
@@ -32,10 +32,13 @@ const Main = () => {
               <p className='text-xs'>Unleash your hair's potential with our creative styling services. </p>
             </div>
           </div>
+          </div>
 
-</div>
-<button className='services-btn'>view our services</button>
-</section>
+ <div className='flex items-center justify-center mb-6'>
+          <button className='text-white border-2 border-white bg-black hover:text-black hover:bg-white px-4 py-1'>
+            View Our Services
+          </button>
+        </div></section>
 
 
 {/* MOST POPULAR SERVICE */}

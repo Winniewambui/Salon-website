@@ -1,14 +1,10 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
 
 const Testimonial = () => {
     return (
         <>
-        <Navbar /> 
-
-        <h1 className='w-[200px] mx-auto mt-24 mb-16 text-5xl dark:text-white capitalize font-serif font-bold'>contact</h1>
-        <p className='mx-auto w-[400px] md:w-[600px] text-base text-black dark:text-white text-center'>
+        <h1 className='w-[200px] mx-auto mt-20 mb-12 text-5xl dark:text-white capitalize font-serif font-bold'>contact</h1>
+        <p className='mx-auto w-[400px] md:w-[600px] text-base text-black dark:text-white text-center py-5'>
 Elevate your beauty and relaxation experience at Shiphy&Style. Our skilled team is dedicated to providing personalized services that bring out your natural radiance. 
 For appointments or questions, contact us at:</p>
 
@@ -26,7 +22,7 @@ For appointments or questions, contact us at:</p>
                     </div>
 
                     {/* Second column */}
-                    <div className='pt-10 px-10 py-20 md:py-20 capitalize text-base bg-pink-300 text-white h-[250px] md:h-[500px] w-[250px]'>
+                    <div className='pt-10 px-10 py-20 md:py-20 capitalize text-base bg-stone-400 text-white h-[250px] md:h-[500px] w-[250px]'>
                         <h1 className='capitaize text-lg font-bold'>opening hours:</h1>
                         <p>Monday 10am-7pm</p>
                         <p>Tuesday 10am-7pm</p>
@@ -48,7 +44,6 @@ For appointments or questions, contact us at:</p>
             </div>
 
 
-            < Footer />
         </>
 
     );

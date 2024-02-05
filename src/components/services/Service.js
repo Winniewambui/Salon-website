@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
 
 const Service = () => {
   const [activeTab, setActiveTab] = useState('cuts');
@@ -11,10 +9,9 @@ const Service = () => {
 
   return (
     <div className='dark:text-white'>
-      <Navbar />
       <div>
-        <h1 className='w-[300px] mx-auto mt-24 mb-16 text-5xl capitalize font-serif font-bold'>our services</h1>
-        <ul className='flex items-center justify-center gap-8 text-xl capitalize border-b-2 border-black mb-8 w-[300px] h-[40px] mx-auto'>
+        <h1 className='w-[300px] mx-auto mt-16 mb-16 text-5xl capitalize font-serif font-bold'>our services</h1>
+        <ul className='flex items-center justify-center gap-8 text-xl capitalize mb-8 w-[300px] h-[40px] mx-auto'>
           <li onClick={() => handleTabClick('cuts')} className={activeTab === 'cuts' ? 'focus:underline active:underline' : ''}>
             cuts
           </li>
@@ -30,7 +27,7 @@ const Service = () => {
         {activeTab === 'cuts' && (
           <section className='mb-8 flex flex-col items-center'>
             {/* 1 */}
-            <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[150px] mx-auto'>
+            <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
               <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
                 <h2 className='capitalize'>wash & dry</h2>
                 <div>
@@ -42,7 +39,7 @@ const Service = () => {
             </div>
 
              {/* 2  */}
-            <div className='flex items-center justify-center gap-24 space-x-20 md:space-x-40 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[150px] mx-auto'>
+            <div className='flex items-center justify-center gap-24 space-x-20 md:space-x-40 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
               <div className='flex flex-col gap-4 md:gap-24 items-center justify-between md:flex-row md:space-x-20'>
                 <h2 className='capitalize'>trim</h2>
                 <div>
@@ -54,7 +51,7 @@ const Service = () => {
             </div>
 
             {/* 3 */}
-            <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-y border-black w-[500px] md:w-[900px] h-[150px] mx-auto'>
+            <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-y border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
               <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
                 <h2 className='capitalize'>cut & blow Dry</h2>
                 <div>
@@ -71,7 +68,7 @@ const Service = () => {
         {activeTab === 'color' && (
           <section className='mb-8 flex flex-col items-center'>
             {/* 1 */}
-            <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[150px] mx-auto'>
+            <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
               <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
                 <h2 className='capitalize'>single process color</h2>
                 <div>
@@ -83,7 +80,7 @@ const Service = () => {
             </div>
 
             {/* 2 */}
-            <div className='flex items-center justify-center gap-20 space-x-32 md:space-x-32 md:justify-center border-y border-black w-[500px] md:w-[900px] h-[150px] mx-auto'>
+            <div className='flex items-center justify-center gap-20 space-x-32 md:space-x-32 md:justify-center border-y border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
             <div className='flex flex-col gap-4 md:gap-24 items-center justify-between md:flex-row md:space-x-24'>
                 <h2 className='capitalize'>highlights</h2>
                 <div>
@@ -100,7 +97,7 @@ const Service = () => {
 {activeTab === 'styling' && (
   <section className='mb-8 flex flex-col items-center'>
     {/* 1 */}
-    <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-y border-black w-[500px] md:w-[900px] h-[150px] mx-auto'>
+    <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-y border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px]] mx-auto'>
       <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
         <h2 className='capitalize'>bridal hair</h2>
         <div>
@@ -114,7 +111,6 @@ const Service = () => {
 )}
 
       </div>
-      <Footer />
     </div>
   );
 };

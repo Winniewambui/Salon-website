@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaPinterestP } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -20,10 +21,10 @@ San Francisco, CA 94158 </p>
 </div>
 
 <div className='text-sm capitalize flex flex-row gap-4 pt-10 md:pt-0 md:flex-col md:gap-8'>
-    <p> home </p>
-    <p>about </p>
-    <p>services </p>
-    <p>contact </p>
+<p><Link to="/">Home</Link></p>
+<p><Link to="/about">about</Link></p>
+<p><Link to ="/services">services</Link></p>
+<p><Link to ="/contact">contact</Link></p>
 </div>
 
 <div className='flex flex-row gap-4 pt-10 md:pt-0 md:flex-col md:gap-8'>

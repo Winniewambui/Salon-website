@@ -25,7 +25,7 @@ const Service = () => {
 
         {/* Cuts Tab Content */}
         {activeTab === 'cuts' && (
-          <section className='mb-8 flex flex-col items-center'>
+          <section className='mb-8 flex flex-col items-center pb-20'>
             {/* 1 */}
             <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
               <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
@@ -66,7 +66,7 @@ const Service = () => {
 
         {/* Color Tab Content */}
         {activeTab === 'color' && (
-          <section className='mb-8 flex flex-col items-center'>
+          <section className='mb-8 flex flex-col items-center pb-20'>
             {/* 1 */}
             <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-t border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
               <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
@@ -95,7 +95,7 @@ const Service = () => {
 
      {/* Styling Tab Content */}
 {activeTab === 'styling' && (
-  <section className='mb-8 flex flex-col items-center'>
+  <section className='mb-8 flex flex-col items-center pb-20'>
     {/* 1 */}
     <div className='flex items-center justify-center gap-20 space-x-20 md:space-x-28 md:justify-center border-y border-black w-[500px] md:w-[900px] h-[120px] md:h-[80px]] mx-auto'>
       <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>

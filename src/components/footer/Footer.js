@@ -8,7 +8,7 @@ const Footer = () => {
     <section className=' bg-gray-600'>
     <div className='grid grid-cols-2 md:grid-cols-4 gap-4 justify-items-center text-white py-20 px-10 mx-auto max-w-[1200px]'>
 <div className='flex flex-col gap-8 md:gap-10 items-start'>
-    <h1 className='text-4xl capitalize font-serif font-bold'>Shear&style</h1>
+    <h1 className='text-4xl capitalize font-serif font-bold'><Link to="/">Shear&style</Link></h1>
     <p className='text-sm mt-12'> &copy;2025 by Shear & Style.All rights reserved.</p>
 </div>
 

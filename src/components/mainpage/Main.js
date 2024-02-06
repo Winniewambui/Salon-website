@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -35,25 +36,31 @@ const Main = () => {
           </div>
 
  <div className='flex items-center justify-center mb-6'>
-          <button className='text-white dark:text-black border-2 border-white dark:border-black bg-black dark:bg-white hover:text-black dark:hover:text-white hover:bg-white dark:hover:bg-black px-4 py-1'>
+ <Link to="/services">
+ <button className='text-white dark:text-black border-2 border-white dark:border-black bg-black dark:bg-white hover:text-black dark:hover:text-white hover:bg-white dark:hover:bg-black px-4 py-1'>
             View Our Services
           </button>
+ </Link>
+        
         </div></section>
 
 
 {/* MOST POPULAR SERVICE */}
 
 <h1 className='dark:text-white text-4xl font-bold capitalize ml-10 my-8 pl-20 max-w-[800px]'>our most < br/> popular Service</h1>
-<section className='flex flex-col md:flex-row items-center space-x-4 mt-4 mb-8 border-2 border-black dark:border-white border-l-0 max-w-[1000px] mx-auto'>
-<img src='https://images.pexels.com/photos/2811089/pexels-photo-2811089.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='w-[500px] h-[550px]'/>
-<div className='w-[350px] text-center my-5 dark:text-white'>
+<section className='flex flex-col md:flex-row items-center space-x-4 mt-4 mb-8 border-2 border-black dark:border-white max-w-[900px] mx-auto'>
+<img src='https://images.pexels.com/photos/2811089/pexels-photo-2811089.jpeg?auto=compress&cs=tinysrgb&w=600' alt='img' className='w-[400px] h-[500px] md:w-[500px] md:h-[550px]'/>
+<div className='w-[300px] text-center my-5 dark:text-white'>
 <h2>Wash & Dry</h2>
 <p>
   1 hr <br />
   100 US dollars <br />
   $100
 </p>
-<button className='w-[90px] h-8 capitalize my-5 bg-black dark:bg-white border-none rounded-sm text-white dark:text-black'>book now</button>
+<Link to="/services">
+<button className='w-[90px] h-8 capitalize my-5 bg-black dark:bg-white border-none rounded-sm text-white dark:text-black'>
+book now</button>
+</Link>
 
 </div>
 </section>

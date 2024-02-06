@@ -27,7 +27,7 @@ const Testimonial = () => {
       </div>
 
       <div className='profileSection'>
-        <div className='py-20 dark:text-white'>
+        <div className='py-20 pl-10 dark:text-white'>
           <p className='text-lg font-bold capitalize'>#shear&style</p>
           <h1 className='text-4xl font-bold capitalize'>Essential Looks & Products</h1>
         </div>

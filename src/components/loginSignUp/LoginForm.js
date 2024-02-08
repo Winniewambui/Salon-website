@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
   
@@ -58,17 +58,17 @@ const LoginForm = () => {
         Log In
       </button>
 
-      {/* <Link to="/SignUp">
+      <Link to="/SignUp">
       <button
         className="bg-orange-500 hover:bg-orange-400 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         type="button">
         Sign In
       </button>
-      </Link> */}
+      </Link>
       </div>
 
     </div>
   );
 };
 
-export default LoginForm
+export default LoginForm;

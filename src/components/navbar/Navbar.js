@@ -41,7 +41,7 @@ const Navbar = () => {
         <li className='p-4 border-b border-orange-300 capitalize dark:text-white'><Link to="/contact">contact</Link></li>
 
         <div className="flex space-x-8 items-center p-4 border-b border-orange-300">
-        <Link to="/loginSignUp">
+        <Link to="/LoginForm">
       <AiOutlineUser size={30} className='text-orange-600' />
       </Link>
           <IoCartOutline size={30} className='text-orange-600' />

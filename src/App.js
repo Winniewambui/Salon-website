@@ -6,8 +6,8 @@ import About from './components/about/About';
 import Footer from './components/footer/Footer';
 import Pages from './components/pages';
 import Service from './components/services/Service';
-import LoginForm from './components/loginSignUp/LoginForm';
 import SignUp from './components/loginSignUp/SignUp';
+import LoginForm from './components/loginSignUp/LoginForm';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path="/services" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/loginSignUp" element={<LoginForm />} />
-        {/* <Route path="/signUp" element={<SignUp />} /> */}
+        <Route path="/signUp" element={<SignUp />} />
       </Routes>
       <Footer />
     </Router>

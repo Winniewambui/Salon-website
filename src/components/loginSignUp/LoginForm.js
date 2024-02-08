@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
+  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -57,13 +58,13 @@ const LoginForm = () => {
         Log In
       </button>
 
-      <Link to="/signup">
+      {/* <Link to="/SignUp">
       <button
         className="bg-orange-500 hover:bg-orange-400 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         type="button">
         Sign In
       </button>
-      </Link>
+      </Link> */}
       </div>
 
     </div>

@@ -13,7 +13,7 @@ const Footer = () => {
 </div>
 
 
-<div className='text-sm flex flex-col gap-8 text-start items-center '>
+<div className='text-sm flex flex-col gap-8 text-start items-center pt-32 md:pt-0'>
     <p>500 Terry Francine Street <br />
 San Francisco, CA 94158 </p>
 <p>123-456-7890</p>

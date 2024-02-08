@@ -22,7 +22,9 @@ const Navbar = () => {
       </ul>
 
       <div className='hidden md:flex space-x-8'>
-        <AiOutlineUser size={30} className='text-orange-500' />
+      <Link to="/loginSignUp">
+      <AiOutlineUser size={30} className='text-orange-500' />
+      </Link>
         <IoCartOutline size={30} className='text-orange-500' />
       </div>
 

@@ -81,7 +81,7 @@ const Service = () => {
 
             {/* 2 */}
             <div className='flex items-center justify-around space-x-10 md:space-x-28 md:justify-center border-t border-black w-[300px]  md:w-[800px] h-[120px] md:h-[80px] mx-auto'>
-            <div className='flex flex-col gap-4 md:gap-24 items-start justify-between md:flex-row md:space-x-24'>
+            <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
                 <h2 className='capitalize'>highlights</h2>
                 <div>
                   <p>1 hr</p>

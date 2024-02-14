@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <section className='w-full max-w-[1000px] mx-auto flex flex-col md:flex-row justify-around items-center space-x-6 p-8 mt-10 bg-yellow-600'>
-      <div className="w-[460px] h-[500px] object-cover relative">
+      <div className="w-[280px] h-[350px] md:w-[460px] md:h-[500px] object-cover relative">
         <img src={images[currentSlide]} alt='img' className="w-full h-full bg-no-repeat bg-center bg-cover" />
         <GrPrevious size={10} className="absolute top-1/2 -left-12 bg-transparent z-10" onClick={prevSlide}/>
         <GrNext size={10} className="absolute top-1/2 -right-10 bg-transparent z-10" onClick={nextSlide}/>

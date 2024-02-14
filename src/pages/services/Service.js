@@ -88,7 +88,7 @@ const Service = () => {
                   <p>$ 100</p>
                 </div>
               </div>
-              <button className='dark:text-black dark:bg-white px-4 md:px-6 py-3 capitalize text-white bg-gray-900 hover:bg-gray-600'>book now</button>
+              <button className='dark:text-black dark:bg-white px-4 md:px-6 py-3 capitalize text-white bg-gray-900 hover:bg-gray-600'>book today</button>
             </div>
           </section>
           )}
@@ -99,7 +99,7 @@ const Service = () => {
     {/* 1 */}
             <div className='flex items-center justify-around space-x-10 md:space-x-28 md:justify-center border-t border-black w-[300px]  md:w-[900px] h-[120px] md:h-[80px] mx-auto'>
       <div className='flex flex-col gap-4 md:gap-20 items-center justify-between md:flex-row md:space-x-20'>
-        <h2 className='capitalize'>bridal hair</h2>
+        <h2 className='capitalize'>bride Hair</h2>
         <div>
           <p>1 hr</p>
           <p>$ 200</p>

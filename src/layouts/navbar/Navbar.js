@@ -29,13 +29,16 @@ const Navbar = () => {
       </div>
 
       {/* MOBILE VIEW */}
-      <div onClick={handleNav} className='block md:hidden'>
-        {nav ? <IoCloseOutline size={30} className='text-orange-600' /> : <IoMenuOutline size={30} className='text-orange-600' />}
+      <div onClick={handleNav} className='block md:hidden relative'>
+        {nav ? <IoCloseOutline size={30} className='z-20 text-orange-600' /> : <IoMenuOutline size={30} className='text-orange-600' />}
       </div>
 
-      <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-300 bg-[#c3c536] ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out duration-500'}>
-        <h1 className='text-4xl font-bold font-serif mt-4 text-orange-500 capitalize'><Link to="/">shiphy&style</Link></h1>
-        <li className='p-4 border-b border-orange-300 capitalize dark:text-white'><Link to="/">home</Link></li>
+      <ul className={nav ? 'fixed right-0 top-0 w-[60%] h-full border-r border-r-gray-300 bg-[#c3c536] ease-in-out duration-500' : 'fixed right-[-100%] ease-in-out duration-500'}>
+        {/* <h1 className='text-4xl font-bold font-serif mt-4 text-orange-500 capitalize'><Link to="/">shiphy&style</Link></h1> */}
+        <span className=' absolute top-8 right-4'>
+        <IoCloseOutline  size={36} className=' text-orange-600' onClick={handleNav} />
+        </span>
+        <li className='p-4 pt-24 border-b border-orange-300 capitalize dark:text-white'><Link to="/">home</Link></li>
         <li className='p-4 border-b border-orange-300 capitalize dark:text-white'><Link to="/about">about</Link></li>
         <li className='p-4 border-b border-orange-300 capitalize dark:text-white'><Link to="/services">services</Link></li>
         <li className='p-4 border-b border-orange-300 capitalize dark:text-white'><Link to="/contact">contact</Link></li>
